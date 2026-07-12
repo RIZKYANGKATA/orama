@@ -484,7 +484,7 @@ button{
 
 :root{
 
-    --primary:#F50;
+    --primary:#FE6601;
     --secondary:#1b1b1b;
     --yellow:#F7B500;
     --light:#f7f7f7;
@@ -601,7 +601,7 @@ nav .container{
 .menu{
 
     display:flex;
-    gap:35px;
+    gap:15px;
 
 }
 
@@ -1024,7 +1024,7 @@ section h2{
 
     position:relative;
 
-    background:#ff5500;
+    background:var(--primary);
 
     overflow:hidden;
 
@@ -1043,6 +1043,8 @@ section h2{
     width:100%;
 
     line-height:0;
+
+    background-color:var(--primary);
 
 }
 
@@ -1069,6 +1071,9 @@ section h2{
     width:100%;
 
     line-height:0;
+
+    background-color:var(--primary);
+
 
 }
 
@@ -1238,6 +1243,9 @@ section h2{
 
     line-height:0;
 
+    background-color:var(--primary);
+
+
 }
 
 .wave-atas svg{
@@ -1261,6 +1269,9 @@ section h2{
     width:100%;
 
     line-height:0;
+
+    background-color:var(--primary);
+
 
 }
 
