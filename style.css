@@ -590,7 +590,7 @@ nav .container{
 
 }
 
-.logo h2 a{
+.logo h3 a{
 
     color:var(--primary);
     font-size:30px;
@@ -2086,7 +2086,7 @@ padding:70px 0;
 
 }
 
-.logo h2{
+.logo h3{
 
 font-size:24px;
 
