@@ -213,3 +213,43 @@ modal.addEventListener("click", function(e){
     }
 
 });
+
+/* ===========================
+   GALLERY LIGHTBOX
+=========================== */
+
+const galleryItems = document.querySelectorAll(".gallery-item");
+
+const galleryModal = document.getElementById("galleryModal");
+
+const galleryImg = document.getElementById("galleryImg");
+
+const galleryClose = document.querySelector(".gallery-close");
+
+galleryItems.forEach(item => {
+
+    item.addEventListener("click", function(){
+
+        galleryModal.classList.add("show");
+
+        galleryImg.src = this.src;
+
+    });
+
+});
+
+galleryClose.addEventListener("click", function(){
+
+    galleryModal.classList.remove("show");
+
+});
+
+galleryModal.addEventListener("click", function(e){
+
+    if(e.target === galleryModal){
+
+        galleryModal.classList.remove("show");
+
+    }
+
+});
